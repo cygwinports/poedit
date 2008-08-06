@@ -1,4 +1,3 @@
-diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x 'Makefile.in*' -x configure -x gnome-doc-utils.make -x intltool.m4 -x omf.make -x xmldocs.make origsrc/poedit-1.3.4/admin/acinclude.m4 src/poedit-1.3.4/admin/acinclude.m4
 --- origsrc/poedit-1.3.4/admin/acinclude.m4	2004-07-15 14:27:51.000000000 -0500
 +++ src/poedit-1.3.4/admin/acinclude.m4	2006-06-23 17:14:06.473933200 -0500
 @@ -43,7 +43,7 @@
