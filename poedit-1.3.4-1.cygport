@@ -1,3 +1,0 @@
-DESCRIPTION="GUI gettext catalogs editor"
-HOMEPAGE="http://www.poedit.org/"
-SRC_URI="http://umn.dl.sourceforge.net/${PN}/${P}.tar.gz"
