@@ -7,27 +7,27 @@ provide more convenient approach to editing catalogs than launching vi
 and editing the file by hand.
 
 Runtime requirements:
-  cygwin-1.7.0-44
+  cygwin-1.7.0-67
   gettext-devel
-  libdb4.6-4.6.21.4-10
-  libgcc1-4.3.2-2
-  libglib2.0_0-2.20.0-1
-  libgtk2.0_0-2.16.0-1
-  libgtkspell0-2.0.15-10
-  libstdc++6-4.3.2-2
-  libwx_baseu2.8_0-2.8.9.2-10
-  libwx_gtk2u2.8_0-2.8.9.2-10
+  libdb4.5-4.5.20.2-2
+  libgcc1-4.3.4-3
+  libglib2.0_0-2.22.2-1
+  libgtk2.0_0-2.18.3-1
+  libgtkspell0-2.0.15-11
+  libstdc++6-4.3.4-3
+  libwx_baseu2.8_0-2.8.10.1-2
+  libwx_gtk2u2.8_0-2.8.10.1-2
 
 Build requirements:
 (besides corresponding -devel packages)
   autoconf2.5-2.63-10
-  automake1.9-1.9.6-10
-  binutils-20080624-2
-  cygport-0.9.6-1
-  gawk-3.1.6-2
-  gcc4-core-4.3.2-2
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.4-3
   make-3.81-2
-  pkg-config-0.23a-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
@@ -39,168 +39,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack poedit-1.4.2-X-src.tar.bz2
+  unpack poedit-1.4.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./poedit-1.4.2-X.cygport all
+  cygport ./poedit-1.4.3-X.cygport all
 
 This will create:
-  /usr/src/poedit-1.4.2-X-src.tar.bz2
-  /usr/src/poedit-1.4.2-X.tar.bz2
+  /usr/src/poedit-1.4.3-X-src.tar.bz2
+  /usr/src/poedit-1.4.3-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /etc/postinstall/poedit.sh
-  /usr/bin/poedit.exe
-  /usr/share/applications/poedit.desktop
-  /usr/share/doc/poedit/AUTHORS
-  /usr/share/doc/poedit/COPYING
-  /usr/share/doc/poedit/NEWS
-  /usr/share/doc/poedit/README
-  /usr/share/doc/poedit/TODO
-  /usr/share/icons/hicolor/16x16/apps/poedit.png
-  /usr/share/icons/hicolor/32x32/apps/poedit.png
-  /usr/share/icons/hicolor/48x48/apps/poedit.png
-  /usr/share/icons/hicolor/scalable/apps/poedit.svg
-  /usr/share/locale/af_ZA/LC_MESSAGES/poedit.mo
-  /usr/share/locale/am/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ar/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ast/LC_MESSAGES/poedit.mo
-  /usr/share/locale/be/LC_MESSAGES/poedit.mo
-  /usr/share/locale/be@latin/LC_MESSAGES/poedit.mo
-  /usr/share/locale/bg/LC_MESSAGES/poedit.mo
-  /usr/share/locale/bn/LC_MESSAGES/poedit.mo
-  /usr/share/locale/br/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ca/LC_MESSAGES/poedit.mo
-  /usr/share/locale/cs/LC_MESSAGES/poedit.mo
-  /usr/share/locale/da/LC_MESSAGES/poedit.mo
-  /usr/share/locale/de/LC_MESSAGES/poedit.mo
-  /usr/share/locale/el/LC_MESSAGES/poedit.mo
-  /usr/share/locale/eo/LC_MESSAGES/poedit.mo
-  /usr/share/locale/es/LC_MESSAGES/poedit.mo
-  /usr/share/locale/es_PR/LC_MESSAGES/poedit.mo
-  /usr/share/locale/et/LC_MESSAGES/poedit.mo
-  /usr/share/locale/eu/LC_MESSAGES/poedit.mo
-  /usr/share/locale/fa_IR/LC_MESSAGES/poedit.mo
-  /usr/share/locale/fi/LC_MESSAGES/poedit.mo
-  /usr/share/locale/fr/LC_MESSAGES/poedit.mo
-  /usr/share/locale/fur/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ga/LC_MESSAGES/poedit.mo
-  /usr/share/locale/gl/LC_MESSAGES/poedit.mo
-  /usr/share/locale/he/LC_MESSAGES/poedit.mo
-  /usr/share/locale/hi/LC_MESSAGES/poedit.mo
-  /usr/share/locale/hr/LC_MESSAGES/poedit.mo
-  /usr/share/locale/hu/LC_MESSAGES/poedit.mo
-  /usr/share/locale/id/LC_MESSAGES/poedit.mo
-  /usr/share/locale/is/LC_MESSAGES/poedit.mo
-  /usr/share/locale/it/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ja/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ka/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ko/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ku/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ky/LC_MESSAGES/poedit.mo
-  /usr/share/locale/lt/LC_MESSAGES/poedit.mo
-  /usr/share/locale/lv/LC_MESSAGES/poedit.mo
-  /usr/share/locale/mk/LC_MESSAGES/poedit.mo
-  /usr/share/locale/mn/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ms/LC_MESSAGES/poedit.mo
-  /usr/share/locale/nb/LC_MESSAGES/poedit.mo
-  /usr/share/locale/nl/LC_MESSAGES/poedit.mo
-  /usr/share/locale/nn/LC_MESSAGES/poedit.mo
-  /usr/share/locale/pa/LC_MESSAGES/poedit.mo
-  /usr/share/locale/pl/LC_MESSAGES/poedit.mo
-  /usr/share/locale/pt_BR/LC_MESSAGES/poedit.mo
-  /usr/share/locale/pt_PT/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ro/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ru/LC_MESSAGES/poedit.mo
-  /usr/share/locale/sk/LC_MESSAGES/poedit.mo
-  /usr/share/locale/sl/LC_MESSAGES/poedit.mo
-  /usr/share/locale/sq_AL/LC_MESSAGES/poedit.mo
-  /usr/share/locale/sr/LC_MESSAGES/poedit.mo
-  /usr/share/locale/sv/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ta/LC_MESSAGES/poedit.mo
-  /usr/share/locale/th/LC_MESSAGES/poedit.mo
-  /usr/share/locale/tr/LC_MESSAGES/poedit.mo
-  /usr/share/locale/tt/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ug/LC_MESSAGES/poedit.mo
-  /usr/share/locale/uk/LC_MESSAGES/poedit.mo
-  /usr/share/locale/ur/LC_MESSAGES/poedit.mo
-  /usr/share/locale/wa/LC_MESSAGES/poedit.mo
-  /usr/share/locale/zh_CN/LC_MESSAGES/poedit.mo
-  /usr/share/locale/zh_TW/LC_MESSAGES/poedit.mo
-  /usr/share/man/man1/poedit.1.gz
-  /usr/share/pixmaps/poedit.png
-  /usr/share/poedit/help/common/comment.gif
-  /usr/share/poedit/help/common/fileopen.gif
-  /usr/share/poedit/help/common/filesave.gif
-  /usr/share/poedit/help/common/fullscreen.gif
-  /usr/share/poedit/help/common/fuzzy.gif
-  /usr/share/poedit/help/common/poedit.css
-  /usr/share/poedit/help/common/quotes.gif
-  /usr/share/poedit/help/common/update.gif
-  /usr/share/poedit/help/en/basics.html
-  /usr/share/poedit/help/en/gettext/gettext.hhc
-  /usr/share/poedit/help/en/gettext/gettext.hhp
-  /usr/share/poedit/help/en/gettext/gettext_1.html
-  /usr/share/poedit/help/en/gettext/gettext_10.html
-  /usr/share/poedit/help/en/gettext/gettext_11.html
-  /usr/share/poedit/help/en/gettext/gettext_12.html
-  /usr/share/poedit/help/en/gettext/gettext_2.html
-  /usr/share/poedit/help/en/gettext/gettext_3.html
-  /usr/share/poedit/help/en/gettext/gettext_4.html
-  /usr/share/poedit/help/en/gettext/gettext_5.html
-  /usr/share/poedit/help/en/gettext/gettext_6.html
-  /usr/share/poedit/help/en/gettext/gettext_7.html
-  /usr/share/poedit/help/en/gettext/gettext_8.html
-  /usr/share/poedit/help/en/gettext/gettext_9.html
-  /usr/share/poedit/help/en/gettext/gettext_foot.html
-  /usr/share/poedit/help/en/gettext/gettext_toc.html
-  /usr/share/poedit/help/en/gettext/index.html
-  /usr/share/poedit/help/en/index.html
-  /usr/share/poedit/help/en/manager.html
-  /usr/share/poedit/help/en/menu.html
-  /usr/share/poedit/help/en/poedit.hhc
-  /usr/share/poedit/help/en/poedit.hhp
-  /usr/share/poedit/help/en/settings.html
-  /usr/share/poedit/help/en/tm.html
-  /usr/share/poedit/help/en/ui.html
-  /usr/share/poedit/help/en/update.html
-  /usr/share/poedit/help/hr/basics.html
-  /usr/share/poedit/help/hr/index.html
-  /usr/share/poedit/help/hr/manager.html
-  /usr/share/poedit/help/hr/menu.html
-  /usr/share/poedit/help/hr/poedit.hhc
-  /usr/share/poedit/help/hr/poedit.hhp
-  /usr/share/poedit/help/hr/settings.html
-  /usr/share/poedit/help/hr/tm.html
-  /usr/share/poedit/help/hr/ui.html
-  /usr/share/poedit/help/hr/update.html
-  /usr/share/poedit/icons/README
-  /usr/share/poedit/icons/document-new.png
-  /usr/share/poedit/icons/document-open.png
-  /usr/share/poedit/icons/document-properties.png
-  /usr/share/poedit/icons/document-save.png
-  /usr/share/poedit/icons/edit-delete.png
-  /usr/share/poedit/icons/help-browser.png
-  /usr/share/poedit/icons/poedit-comment.png
-  /usr/share/poedit/icons/poedit-fuzzy.png
-  /usr/share/poedit/icons/poedit-status-automatic.png
-  /usr/share/poedit/icons/poedit-status-cat-mid.png
-  /usr/share/poedit/icons/poedit-status-cat-no.png
-  /usr/share/poedit/icons/poedit-status-cat-ok.png
-  /usr/share/poedit/icons/poedit-status-comment-modif.png
-  /usr/share/poedit/icons/poedit-status-comment.png
-  /usr/share/poedit/icons/poedit-status-modified.png
-  /usr/share/poedit/icons/poedit-status-nothing.png
-  /usr/share/poedit/icons/poedit-update.png
-  /usr/share/poedit/icons/view-fullscreen.png
-
-------------------
-
 Port Notes:
+
+----- version 1.4.3-1 -----
+Version bump.
 
 ----- version 1.4.2-1 -----
 Initial release for Cygwin 1.7.
