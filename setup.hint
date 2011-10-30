@@ -1,5 +1,5 @@
 category: Devel
-requires: libdb4.5 libgcc1 libglib2.0_0 libgtk2.0_0 libgtkspell0 libstdc++6 libwx_baseu2.8_0 libwx_gtk2u2.8_0
+requires: libdb5.2 libgcc1 libglib2.0_0 libgtk2.0_0 libgtkspell0 libstdc++6 libwx_baseu2.8_0 libwx_gtk2u2.8_0
 sdesc: "GUI gettext catalogs editor"
 ldesc: "poEdit is cross-platform gettext catalogs (.po files) editor. It is
 built with wxWidgets toolkit and can run on any platform supported by it
