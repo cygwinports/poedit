@@ -2,8 +2,8 @@ WX_VERSION=2.8
 inherit wxwidgets
 
 NAME="poedit"
-VERSION=1.4.6.1
-RELEASE=2
+VERSION=1.5.7
+RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GUI gettext catalogs editor"
 DESCRIPTION="poEdit is cross-platform gettext catalogs (.po files) editor.
@@ -11,5 +11,6 @@ It aims to provide more convenient approach to editing catalogs than launching
 vi and editing the file by hand."
 HOMEPAGE="http://www.poedit.net/"
 SRC_URI="mirror://sourceforge/poedit/poedit-${VERSION}.tar.gz"
+PATCH_URI="1.5.7-wx28.patch"
 
 CYGCONF_ARGS="--with-wx-config=${WX_CONFIG}"
