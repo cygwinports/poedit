@@ -1,0 +1,21 @@
+--- origsrc/poedit-1.7.6/src/gexecute.cpp	2015-04-18 13:01:44.000000000 -0500
++++ src/poedit-1.7.6/src/gexecute.cpp	2015-05-13 13:33:50.575424100 -0500
+@@ -186,7 +186,7 @@ bool ExecuteGettextAndParseOutput(const
+         wsmatch match;
+         if (regex_match(e, match, RE_ERROR))
+         {
+-            rec.line = std::stoi(match.str(1));
++            rec.line = std::wcstol(match.str(1).c_str(), NULL, 10);
+             rec.text = match.str(3);
+             errors.push_back(rec);
+             wxLogTrace("poedit.execute",
+--- origsrc/poedit-1.7.6/src/tm/dump_legacy_tm.cpp	2015-04-18 13:01:44.000000000 -0500
++++ src/poedit-1.7.6/src/tm/dump_legacy_tm.cpp	2015-05-13 13:36:31.859904700 -0500
+@@ -28,6 +28,7 @@
+ #include <string>
+ #include <vector>
+ 
++#include <errno.h>
+ #include <string.h>
+ 
+ #ifdef DB_HEADER
