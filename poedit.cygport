@@ -2,7 +2,7 @@ WX_VERSION=3.0
 inherit wxwidgets
 
 NAME="poedit"
-VERSION=1.7.6
+VERSION=1.7.7
 RELEASE=1
 CATEGORY="Devel"
 SUMMARY="GUI gettext catalogs editor"
